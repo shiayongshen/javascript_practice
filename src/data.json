@@ -1,0 +1,46 @@
+{
+  "orders": {
+    "O00001": {
+      "customerId": "C001",
+      "items": ["I001", "I002", "I003", "I005"]
+    },
+    "O00002": {
+      "customerId": "C001",
+      "items": ["I006", "I010", "I011"]
+    },
+    "O00003": {
+      "customerId": "C002",
+      "items": ["I007", "I008", "I009"]
+    },
+    "O00004": {
+      "customerId": "C003",
+      "items": ["I013", "I014", "I004", "I012"]
+    },
+    "O00005": {
+      "customerId": "C004",
+      "items": []
+    }
+  },
+  "items": {
+    "I001": { "name": "可樂", "price": 25 },
+    "I002": { "name": "蛋糕", "price": 30 },
+    "I003": { "name": "日曆", "price": 35 },
+    "I004": { "name": "菜瓜布", "price": 40 },
+    "I005": { "name": "可樂", "price": 25 },
+    "I006": { "name": "可樂", "price": 25 },
+    "I007": { "name": "鬆餅", "price": 100 },
+    "I008": { "name": "鬆餅", "price": 100 },
+    "I009": { "name": "可樂", "price": 25 },
+    "I010": { "name": "原子筆", "price": 50 },
+    "I011": { "name": "可樂", "price": 25 },
+    "I012": { "name": "洗碗精", "price": 170 },
+    "I013": { "name": "可樂", "price": 25 },
+    "I014": { "name": "綠茶", "price": 30 }
+  },
+  "customers": {
+    "C001": { "name": "Jason" },
+    "C002": { "name": "Dodo" },
+    "C003": { "name": "Howard" },
+    "C004": { "name": "Zoe" }
+  }
+}
